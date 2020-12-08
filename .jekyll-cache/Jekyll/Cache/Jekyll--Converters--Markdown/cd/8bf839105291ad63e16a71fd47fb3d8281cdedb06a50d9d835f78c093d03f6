@@ -1,0 +1,24 @@
+I"<hr />
+
+<h2 id="developing-a-model-for-catastrophe-gamma-distribution">Developing a model for catastrophe: Gamma distribution</h2>
+
+<p>The second possible model for microtubule catastrophe we investigated asserted that the microtubule catastrophe times were Gamma distributed. This was the model that Gardner, et al. used in their paper. The story for the Gamma distribution is the amount of time we have to wait for \(\alpha\) arrivals of a Poisson process, and if we have events that are exponentially distributed in time, then the total time for all the events to occur is Gamma distributed. This can be applied to microtubule catastrophe, which is the result of multiple Poisson proccesses, which are to date unknown, but together which causing rapid depolymerization. As a result, microtubule catastrophe is a multi-step process, and by assuming that these steps have an equal rate of occurring, one can use the Gamma distribution to model the times between microtubule catastrophes.</p>
+
+<h2 id="maximum-likelihood-estimation">Maximum Likelihood Estimation</h2>
+
+<p>We obtained a maximum likelihood estimate for the parameters of this model for the labeled tubulin, since we have previously shown that there is little difference between labeled and unlabeled tubulin.</p>
+
+<p>The Gamma distribution is parameterized by $\alpha$, the number of arrivals, and $\beta$, the rate of arrivals. The limitations on these parameters is that $\alpha$ must be greater than 0, and $\beta$ must not be 0. Our MLE function maximized the log likelihood of the Gamma distribution by minimizing the negative log likelihood using the Powell method.</p>
+
+<p>We calculated the confidence intervals for the $\alpha$ and $\beta$ parameters using both parametric and nonparametric bootstrapping, using multiprocessing to speed up the boostrapping process.</p>
+
+<p>Using nonparametric bootstrapping, we found that the MLE for $\alpha$ was $2.43$ with a 95% confidence interval of [\(2.08315433, 2.84384748\)], and for $\beta$ was $0.0055$ with a 95% confidence interval of [\(0.00463182, 0.00671159\)].</p>
+
+<p>Using parametric bootstrapping, we found that the MLE for $\alpha$ was $2.44$ with a 95% confidence interval of [\(2.03773388, 2.92941959\)], and for $\beta$ was $0.0055$ with a 95% confidence interval of [\(0.00453456, 0.00677066\)].</p>
+
+<p>MLEs and confidence intervals for $\alpha$ and $\beta$ obtained using nonparametric and parametric bootstrapping were very similar.</p>
+
+<p>We compared these confidence intervals to the plug-in estimates of the data. We know that for the Gamma distribution, $\mu = \alpha / \beta$ and $\sigma^2 = \alpha / \beta^2$ so we can manipulate this to get $\alpha = \mu * \beta$ and $\alpha = \sigma^2 * \beta^2$ to solve for $\beta$ and get $\beta = \mu / \sigma^2$ and $\alpha = \mu^2 / \sigma^2$.</p>
+
+<p>The plug in estimates for $\alpha$ and $\beta$, $2.223937603808167$ and $0.005046250504393195$ respectively, of the dataset does indeed fall within the expected confidence intervals for both the parametric and nonparametric bootstrapping method.</p>
+:ET

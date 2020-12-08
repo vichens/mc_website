@@ -9,23 +9,23 @@
 # of the `page01_people.md` file.
 # ##############################################################################
 - author:
-  name: Dr. Osophila
-  link: "https://en.wikipedia.org/wiki/Drosophila"
-  title: Postdoctoral Scholar
-  img: dr_osophila.jpg
-  institute: Bicoid Institute of Development
+  name: Victoria Chen
+  title: Undergraduate
+  img: victoria.jpg
+  institute: California Institute of Technology
   other_info:
-     Email Address: "flyguy@university.edu"
+     Email Address: "vichen@caltech.edu"
 - author:
-  name: Dr. Melanie O'Gaster
-  link: "https://en.wikipedia.org/wiki/Drosophila_melanogaster"
-  title: Postdoctoral Scholar
-  img: melanogaster.jpg
-  institute: French Flag Research Institute
+  name: Hannah Hu
+  title: Undergraduate
+  img: hannah.jpg
+  institute: California Institute of Technology
   other_info:
-    Current Location: Apple Juice Plates, Inc
-
+     Email Address: "hfhu@caltech.edu"
 - author:
-  name: Sally Monella
-  title: Research Technician
-  institute: French Flag Research Institute
+  name: Andy Tong
+  title: Undergraduate
+  img: andy.jpg
+  institute: California Institute of Technology
+  other_info:
+     Email Address: "ajtong@caltech.edu"
