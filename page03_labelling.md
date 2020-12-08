@@ -3,7 +3,7 @@ layout: page
 title: Fluorescent Labelling
 permalink: labelling
 sidebar: true
-interactive: flabelling_ecdf.html
+interactive: labelling.html
 ---
 ---
 
