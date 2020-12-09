@@ -14,22 +14,7 @@ title: >
 authors: >
   Victoria Chen, Hannah Hu, Andy Tong
 Abstract: >
-  Lorem ipsum dolor amet post-ironic aliquip next level vaporware, dolore
-  yuccie trust fund etsy officia blue bottle distillery ad. Raw denim swag
-  selvage wolf, direct trade air plant reprehenderit you probably haven’t heard
-  of them. Aute craft beer cray, pariatur la croix lumbersexual chillwave
-  fashion axe pug adipisicing woke banh mi. Hammock asymmetrical sustainable
-  keffiyeh biodiesel. Banjo trust fund leggings direct trade. Cronut plaid
-  shaman whatever, disrupt ad tofu minim pug dolore forage franzen glossier.
-  Small batch humblebrag ut, artisan health goth edison bulb voluptate lorem
-  dolore chillwave mumblecore iPhone craft beer ex. Enim fingerstache kale
-  chips, VHS succulents butcher meggings woke lo-fi mustache chicharrones chia
-  id consectetur. Gochujang taiyaki incididunt, chartreuse tumblr poutine banjo
-  culpa helvetica eu master cleanse migas umami. Dreamcatcher aliquip hexagon
-  disrupt deep v ugh, banjo truffaut distillery flannel la croix copper mug. Af
-  8-bit tattooed asymmetrical mumblecore swag direct trade iPhone disrupt
-  exercitation mixtape.
-
+  Microtubules are structural proteins present in the cytoskeleton of the cell that undergo growth through polymerization of tubulin and rapid shortening through depolymerization in a process called catastrophe. Statistical analysis was done on a dataset of the time in seconds it takes for a microtubule to undergo catastrophe at different concentrations of tubulin. The initial assumption was that the time to microtubule catastrophe was gamma distributed, but we present a second model which assumes two successive Poisson processes which are necessary for catastrophe to occur. Parametric bootstrapping was used to determine the maximum likelihood estimations for the parameters of both models (minimum number of occurrences necessary for catastrophe and rate of occurrence for the gamma distribution, and the two rate of occurrences for the two Poisson processes model) as well as their confidence intervals. A comparison between the two models showed that the Gamma distribution model fit the distribution of the data better than the successive Poisson process model. Comparisons between different concentrations of tubulin showed that higher concentrations of tubulin resulted in a higher number of steps estimated to produce a catastrophe, and the rate of occurrence of each step peaked at a 10 uM concentration of tubulin.
 Acknowledgments: > 
   This website showcases work done throughout Caltech's BE/Bi 103a course utilizing
   a fantastic dataset from [Garner, Zanic, et al](https://doi.org/10.1016/j.cell.2011.10.037).
